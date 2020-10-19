@@ -33,7 +33,7 @@ function App() {
           </Button>
 
         </form>
-        <ProgressBar value={50}/>
+        <ProgressBar value={90}/>
       </Paper>
     </div>
   );
