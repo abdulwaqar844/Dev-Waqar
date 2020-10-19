@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from "./navBar"
+import ProgressBar from "./ProgressUI"
 import { makeStyles } from '@material-ui/core/styles';
 import { Paper, TextField, Button } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
@@ -32,6 +33,7 @@ function App() {
           </Button>
 
         </form>
+        <ProgressBar value={50}/>
       </Paper>
     </div>
   );
