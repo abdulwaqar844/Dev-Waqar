@@ -29,7 +29,7 @@ export default function ButtonAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            Expense Tracker by Abdul Waqar
+            Expense Tracker
           </Typography>
         </Toolbar>
       </AppBar>
