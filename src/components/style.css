@@ -20,12 +20,15 @@ html{
 }
 .profileimg{
     margin-top: 25px;
-border-radius: 50px;
+border-radius: 140px;
 
 padding-left: 25px;
 padding-right: 0px;
 }
 .skill-set{
     padding-top: 8px;
-    color: rgb(216, 75, 53);
+    color: black;
+}
+hr{
+    border: 2px steelblue solid;
 }
