@@ -1,46 +1,15 @@
 import React from 'react';
-import NavBar from "./navBar"
-import ProgressBar from "./ProgressUI"
-import LineChart from "./LineChart"
-import BarChart from "./BarChar"
-import { makeStyles } from '@material-ui/core/styles';
-import { Paper, TextField, Button } from '@material-ui/core';
-const useStyles = makeStyles((theme) => ({
-  paper: {
-    textAlign: "center",
-    width: 400,
-    margin: "0 auto",
-    marginTop: 25,
-    padding: 15,
-  },
-  input: {
-    width: "90%",
-    marginBottom: 10
-  }
-}));
-
-function App() {
-  const classes = useStyles();
-
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
+import Menu from './components/menu'
+export default function App() {
   return (
-    <div className={classes.root}>
-      <NavBar />
-      <LineChart />
-      < BarChart />
-      <Paper elevation={3} className={classes.paper}>
-        <h1>Login </h1>
-        <form className={classes.root} noValidate autoComplete="off">
-          <TextField label="Enter Email" className={classes.input} />
-          <TextField label="Enter Password" className={classes.input} />
-          <Button variant="contained" color="primary" className={classes.input}>
-            Login
-          </Button>
-
-        </form>
-        <ProgressBar value={90} />
-      </Paper>
-    </div>
+    <React.Fragment>
+      <CssBaseline />
+      <Container maxWidth="xl">
+      <Menu />
+      </Container>
+    </React.Fragment>
   );
 }
-
-export default App;
