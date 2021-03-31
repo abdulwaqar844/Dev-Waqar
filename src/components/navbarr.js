@@ -7,7 +7,7 @@ export default function NavBar() {
             <div className="icon">
                 <img src={Icon} alt="Icon" />
             </div>
-            <div className="menu-items">
+            {/* <div className="menu-items">
                 <ul>
                     <li>Home</li>
                     <li>Projects</li>
@@ -15,7 +15,7 @@ export default function NavBar() {
                     <li>Contact</li>
 
                 </ul>
-            </div>
+            </div> */}
 
         </div>
     );
