@@ -1,0 +1,31 @@
+html{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.menu-items{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 8px;
+
+}
+.menu-items a{
+    margin: 0px 20px 0px 0px;
+
+}
+.about-item{
+    margin-top: 30px;
+    padding: 20px;
+    color: whitesmoke;
+}
+.profileimg{
+    margin-top: 25px;
+border-radius: 50px;
+
+padding-left: 25px;
+padding-right: 0px;
+}
+.skill-set{
+    padding-top: 8px;
+    color: rgb(216, 75, 53);
+}
