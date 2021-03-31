@@ -4,16 +4,17 @@ import Container from '@material-ui/core/Container';
 import Header from './components/header'
 import Skills from './components/Skill'
 import Projects from './components/Projects'
-
+import NavBar from './components/navbarr'
 import './components/style.css'
 export default function App() {
   return (
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="xl">
-      <Header/>
-      <Skills/>
-<Projects/>
+        <NavBar/>
+        <Header />
+        <Skills />
+        <Projects />
       </Container>
     </React.Fragment>
   );

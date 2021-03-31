@@ -23,8 +23,9 @@ export default function SkillSet() {
   return (
     <div className={classes.root}>
       <h1 >Skills I Have</h1>
-      <hr/>
-      <Grid container className="skill-set" spacing={1}>        <Grid item xs={12} sm={4}>
+      <hr />
+      <Grid container className="skill-set" spacing={1}>
+        <Grid item xs={12} sm={4}>
           <Paper className={classes.paper}>
             <h2>HTML</h2>
             <label>90%</label>
