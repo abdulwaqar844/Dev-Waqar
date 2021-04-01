@@ -6,9 +6,7 @@ import waqarimg from "./../images/waqar-dev.jpg"
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
-        background: "black",
-        paddingLeft: 0,
-        paddingRight: 0,
+        background: "rgb(255, 255, 255)",
     },
     paper: {
         padding: theme.spacing(0),
@@ -29,22 +27,21 @@ export default function FullWidthGrid() {
                         <h1>Hi , </h1>
                         <h2>I'm a FullStack Developer living in </h2>
                         <h1>
-                            <strong> <i>Pakistan</i> </strong>
+                            <strong> <u>Pakistan</u> </strong>
+
                         </h1>
-                        <br />
+
                         <h3>
                             I am   Motivated to develop professionally and ready to accept new challenges.
                             I Always Learning New Technologies to meet my client requirments
-
-<SocialIcon />
+                            <hr />
+                            <SocialIcon />
                         </h3>
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <img className="profileimg" src={waqarimg} width="300px" height="300px" alt="Profile " />
+                    <img className="profileimg" width="350px" height="450px" src={waqarimg} alt="Profile " />
                 </Grid>
-
-
             </Grid>
         </div>
     );

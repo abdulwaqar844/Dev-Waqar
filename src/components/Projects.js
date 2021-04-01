@@ -28,6 +28,9 @@ export default function MediaCard() {
   const classes = useStyles();
 
   return (
+    <div>
+        <h1 className='project-title' >Projects</h1>
+      <hr />
     <Grid container className="project-list" spacing={1}>
 
       <Grid item xs={12} sm={4}>
@@ -45,12 +48,12 @@ export default function MediaCard() {
                 Covid Tracker Track Data of All infected Patients form all over the World. Record of Covid Patients Country wise also available          </Typography>
             </CardContent>
           </CardActionArea>
-          <CardActions>
+          <CardActions className="url-btn">
             <a href="https://covid19-trackingapp.surge.sh/">
-              <Button size="small" color="primary">
+              <Button size="medium" color="primary">
                 URL
         </Button></a>
-            <a href="https://github.com/abdulwaqar844/Covid19-Tracker">  <Button size="small" color="primary">
+            <a href="https://github.com/abdulwaqar844/Covid19-Tracker">  <Button size="medium" color="primary">
               GitHub
               </Button>
             </a>
@@ -75,11 +78,11 @@ export default function MediaCard() {
           </Typography>
             </CardContent>
           </CardActionArea>
-          <CardActions>
-            <a href="https://virtual-lolly-app.netlify.app/"><Button size="small" color="primary">
+          <CardActions className="url-btn">
+            <a href="https://virtual-lolly-app.netlify.app/"><Button size="medium" color="primary">
               URL
         </Button></a>
-            <a href="https://github.com/abdulwaqar844/Virtual-Lolly-app"> <Button size="small" color="primary">
+            <a href="https://github.com/abdulwaqar844/Virtual-Lolly-app"> <Button size="medium" color="primary">
               GitHub
         </Button></a>
           </CardActions>
@@ -103,17 +106,17 @@ contentful blog
           </Typography>
             </CardContent>
           </CardActionArea>
-          <CardActions>
-            <a href="https://contentfulapi-gatsby.netlify.app/blog/"><Button size="small" color="primary">
+          <CardActions className="url-btn">
+            <a href="https://contentfulapi-gatsby.netlify.app/blog/"><Button size="medium" color="primary">
               URL
         </Button></a>
-            <a href="https://github.com/abdulwaqar844/gatsby-netlify-contentful"> <Button size="small" color="primary">
+            <a href="https://github.com/abdulwaqar844/gatsby-netlify-contentful"> <Button size="medium" color="primary">
               GitHub
         </Button></a>
           </CardActions>
         </Card>
       </Grid>
     </Grid>
-
+</div>
   );
 }

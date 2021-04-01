@@ -1,4 +1,4 @@
-html{
+*{
     background-color: rgb(255, 255, 255);
 
 }
@@ -16,14 +16,11 @@ html{
 .about-item{
     margin-top: 30px;
     padding: 20px;
-    color: whitesmoke;
+    color: rgba(0, 0, 0, 0.54)
 }
 .profileimg{
     margin-top: 25px;
 border-radius: 140px;
-
-padding-left: 25px;
-padding-right: 0px;
 }
 .skill-set{
     padding-top: 8px;
@@ -34,6 +31,23 @@ hr{
     border: 2px steelblue solid;
     width: 100px;
 }
+.project-title{
+    text-align: center;
+}
+.url-btn{
+    display: inline;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.url-btn button {
+    color: rgb(255, 255, 255);
+border: 2px rgba(31, 11, 212, 0.993)solid;
+font-style: italic;
+background-color:rgba(31, 11, 212, 0.993) ;
+}
+
 .project-list{
     padding-top: 10px;
     display: flex;
