@@ -1,8 +1,8 @@
-*{
+
+.container{
     background-color: rgb(255, 255, 255);
 
 }
-
 .menu-items{
     display: flex;
     margin-top: 5px;
@@ -21,6 +21,8 @@
 .profileimg{
     margin-top: 25px;
 border-radius: 140px;
+width:300px;
+ height:300px;
 }
 .skill-set{
     padding-top: 8px;

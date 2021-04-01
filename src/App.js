@@ -10,7 +10,7 @@ export default function App() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lr">
+      <Container maxWidth="lr" className="container">
         <NavBar/>
         <Header />
         <Skills />

@@ -40,7 +40,7 @@ export default function FullWidthGrid() {
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <img className="profileimg" width="350px" height="450px" src={waqarimg} alt="Profile " />
+                    <img className="profileimg"  src={waqarimg} alt="Profile " />
                 </Grid>
             </Grid>
         </div>

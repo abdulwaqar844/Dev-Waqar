@@ -16,6 +16,7 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 500,
     textAlign: 'center',
+    backgroundColor:" rgba(206, 188, 188,15%)",
 
 
   },

@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
   },
   paper: {
+    backgroundColor:" rgba(206, 188, 188,30%)",
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
