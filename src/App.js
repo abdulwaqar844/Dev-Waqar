@@ -5,6 +5,7 @@ import Header from './components/header'
 import Skills from './components/Skill'
 import Projects from './components/Projects'
 import NavBar from './components/navbarr'
+import Footer from './components/footer'
 import './components/style.css'
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Header />
         <Skills />
         <Projects />
+        <Footer/>
       </Container>
     </React.Fragment>
   );

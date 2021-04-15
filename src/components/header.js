@@ -3,6 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import SocialIcon from './social-icon'
 import Grid from '@material-ui/core/Grid';
 import waqarimg from "./../images/waqar-dev.jpg"
+import useWebAnimations, { fadeInDown } from "@wellyshen/use-web-animations";
+
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -16,6 +18,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function FullWidthGrid() {
+    const { ref } = useWebAnimations(fadeInDown);
+
     const classes = useStyles();
 
     return (
@@ -25,7 +29,7 @@ export default function FullWidthGrid() {
                     <div className="about-item">
 
                         <h1>Hi , </h1>
-                        <h2>I'm a FullStack Developer living in </h2>
+                        <h2>I'm Abdul Waqar <h2 ref={ref} >FullStack Developer</h2> living in </h2>
                         <h1>
                             <strong> <u>Pakistan</u> </strong>
 

@@ -52,8 +52,8 @@ export default function MediaCard() {
             <CardActions className="url-btn">
               <a href="https://covid19-trackingapp.surge.sh/">
                 <Button size="medium" color="primary">
-                  URL
-        </Button></a>
+                  URL</Button>
+        </a>
               <a href="https://github.com/abdulwaqar844/Covid19-Tracker">  <Button size="medium" color="primary">
                 GitHub
               </Button>

@@ -47,9 +47,25 @@ display: grid;
     padding-right: 6px;
     margin: 5px;
 }
+.about-container{
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.76);
+    display: grid;
+    grid-template-columns:2fr 2fr;
+justify-items: center;}
 hr{
     border: 2px steelblue solid;
     width: 100px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    font: 1.5em sans-serif;
+
+}
+.links a{
+
+    color: blanchedalmond;
 }
 .project-title{
     text-align: center;
