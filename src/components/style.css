@@ -25,9 +25,27 @@ width:300px;
  height:300px;
 }
 .skill-set{
-    padding-top: 8px;
+    padding-top: 20px;
     color: black;
     width: 10px;
+
+}
+.skill-container{
+    text-align: center;
+
+align-content: center;
+display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px ,3fr));
+    grid-gap: 10px;
+}
+.sub-skill{
+    border: 2px rgb(230, 235, 235) solid;
+    background-color: rgba(175, 170, 170, 0.253);
+    color: black;
+    padding-bottom: 7px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin: 5px;
 }
 hr{
     border: 2px steelblue solid;
@@ -44,10 +62,10 @@ hr{
 
 }
 .url-btn button {
-    color: rgb(255, 255, 255);
-border: 2px rgba(31, 11, 212, 0.993)solid;
+    color: rgb(0, 0, 0);
+border: 2px rgba(175, 170, 170, 0.5) solid;
 font-style: italic;
-background-color:rgba(31, 11, 212, 0.993) ;
+background-color:rgb(175, 170, 170); ;
 }
 
 .project-list{
