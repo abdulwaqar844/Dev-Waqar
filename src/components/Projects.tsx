@@ -14,9 +14,10 @@ import vlolly from './../images/virtual-lolly-app_netlify_app.jpg'
 import './style.css'
 const useStyles = makeStyles({
   root: {
-    maxWidth: 500,
+    color:'blacky',
+    maxWidth: 450,
     textAlign: 'center',
-    backgroundColor: " rgba(206, 188, 188,15%)",
+    backgroundColor: "  rgba(173, 173, 173, 0.521)"
 
 
   },
@@ -43,9 +44,9 @@ export default function MediaCard() {
                 title="Contemplative Reptile"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
+                <Typography gutterBottom variant="h5" component="h1">
                   Covid Trackinp Application          </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
+                <Typography variant="body1" color="textPrimary" component="p">
                   Covid Tracker Track Data of All infected Patients form all over the World. Record of Covid Patients Country wise also available          </Typography>
               </CardContent>
             </CardActionArea>
@@ -73,7 +74,7 @@ export default function MediaCard() {
                 <Typography gutterBottom variant="h5" component="h2">
                   Virtual Lolly Application
           </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
+                <Typography variant="body1" color="textPrimary" component="p">
                   Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
                   across all continents except Antarctica
           </Typography>
@@ -101,7 +102,7 @@ export default function MediaCard() {
                 <Typography gutterBottom variant="h5" component="h2">
                   contentful blog
  </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
+                <Typography variant="body1" color="textPrimary" component="p">
                   Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
                   across all continents except Antarctica
           </Typography>

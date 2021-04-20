@@ -3,11 +3,11 @@ import LinearProgress from '@material-ui/core/LinearProgress';
 import './style.css'
 export default function SkillSet() {
   return (
-    <div >
-      <h1 >Skills I Have</h1>
+    <div className="skill-main" >
+      <h1 className="skill-title">Skills I Have</h1>
       <div className="skill-container">
         <div className="sub-skill"><h3>HTML</h3>
-          <LinearProgress variant="determinate" value={90} />
+          <LinearProgress  color="primary" variant="determinate" value={90} />
         </div>
         <div className="sub-skill"><h3>CSS</h3>
           <LinearProgress variant="determinate" value={90} />
@@ -15,7 +15,7 @@ export default function SkillSet() {
         <div className="sub-skill"><h3>JavaScript</h3>
           <LinearProgress variant="determinate" value={90} />
         </div><div className="sub-skill"><h3>Python</h3>
-          <LinearProgress variant="" value={90} />
+          <LinearProgress variant="determinate" value={90} />
         </div>
         <div className="sub-skill"><h3>Gatsby</h3>
           <LinearProgress variant="determinate" value={90} />

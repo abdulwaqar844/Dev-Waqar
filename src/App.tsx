@@ -11,7 +11,7 @@ export default function App() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lr" className="container">
+      <Container maxWidth="xl" className="container">
         <NavBar/>
         <Header />
         <Skills />
