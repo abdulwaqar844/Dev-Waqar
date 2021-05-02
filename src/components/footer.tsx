@@ -14,7 +14,8 @@ export default function SkillSet() {
                         </div>
                     </p>
                 </div>
-                <div ><h3>About Me</h3>
+                <div >
+                    <h3>About Me</h3>
                     <p className="into-section">
                         My Name is Abdul Waqar. I am FullStack Developer with Expertise in HTML, CSS, ReactJS,Gatsby,NodeJS,Netlify Functions, Express , AWS Lambda, DynamoDB, MongoDB,FaunaDB,MySQL , Postgress, AWS Neptune,REST APIs, GraphQL API,                 </p>
                 </div>
