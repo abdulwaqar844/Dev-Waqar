@@ -107,18 +107,11 @@ background-color:rgb(175, 170, 170); ;
     display: flex;}
 
 .nav-bar{
-    width: 30%;
-border-bottom: solid;
-border-right: solid;
-border-color: rgb(241, 64, 233);
 font-family: Karumbi;
     margin-top: 0px;
-    font-size: 4rem;
-  align-items: center;
+    font-size: 16px;
 }
-.nav-bar:p{
-text-align: center;
-    }
+
 
 li{
     font-weight: bold;
