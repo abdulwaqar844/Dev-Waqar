@@ -4,7 +4,7 @@ import Container from '@material-ui/core/Container';
 import Header from './components/header'
 import Skills from './components/Skill'
 import Projects from './components/Projects'
-import NavBar from './components/navbarr'
+//import NavBar from './components/navbarr'
 import Footer from './components/footer'
 import './components/style.css'
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="xl" className="container">
-        <NavBar/>
+      
         <Header />
         <Skills />
         <Projects />
