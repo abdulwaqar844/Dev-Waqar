@@ -32,12 +32,12 @@ export default function FullWidthGrid() {
 
                         </h1>
 
-                        <h3>
+                        <h2>
                             I am   Motivated to develop professionally and ready to accept new challenges.
                             I Always Learning New Technologies to meet my client requirments
                             <hr />
                             <SocialIcon />
-                        </h3>
+                        </h2>
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={6}>

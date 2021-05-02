@@ -1,6 +1,7 @@
 
 .container{
     background-color: rgb(255, 254, 254);
+    line-height: 1.2;
 
 }
 .menu-items{
@@ -10,13 +11,14 @@
 
 }
 .menu-items a{
-    margin: 0px 20px 0px 0px;
+    justify-content: space-between;
+
+    color: blue;
+    margin: 20px;
 
 }
 .about-item{
-    margin-top: 30px;
-    padding: 20px;
-    color: rgba(0, 0, 0, 0.54);
+    color: rgb(0, 0, 0);
 }
 .profileimg{
     margin-top: 25px;
@@ -29,6 +31,9 @@ width:50vh;
     color: black;
     width: 10px;
 
+}
+.about-div:p{
+    font-size: 20px;
 }
 .skill-container{
     margin-left: 15px;
@@ -53,8 +58,9 @@ display: grid;
     
 }
 .about-container{
-    color: blanchedalmond;
-    background-color: rgba(0, 0, 0, 0.76);
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    background-color: rgba(221, 221, 221, 0.171);
     display: grid;
     grid-template-columns:2fr 2fr;
 justify-items: center;}
@@ -63,14 +69,21 @@ hr{
     width: 100px;
 }
 .links{
-    display: flex;
+ display: flex;
     flex-direction: column;
-    font: 1.5em sans-serif;
+    font: 20px sans-serif;
 
 }
+.into-section{
+    padding: 5px;
+    font-size: 16px;
+text-align: justify;
+border-left: 1px black solid;
+padding-left: 3px;}
 .links,a{
+    font-weight: 800;
 text-decoration: none;
-    color: blanchedalmond;
+    color: rgba(10, 12, 20, 0.747);
 }
 .project-title ,.skill-title{
     text-align: center;
@@ -94,11 +107,18 @@ background-color:rgb(175, 170, 170); ;
     display: flex;}
 
 .nav-bar{
-  
-    display: flex;
-    flex-direction: row;  
-    justify-content: space-between;
+    width: 30%;
+border-bottom: solid;
+border-right: solid;
+border-color: rgb(241, 64, 233);
+font-family: Karumbi;
+    margin-top: 0px;
+    font-size: 4rem;
+  align-items: center;
 }
+.nav-bar:p{
+text-align: center;
+    }
 
 li{
     font-weight: bold;
